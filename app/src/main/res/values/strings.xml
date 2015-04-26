@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PlankChallenge</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_challenge">ChallengeActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="training_menu_button">Trenuj</string>
+    <string name="define_training_plan_menu_button">Stwórz Wyzwanie</string>
+    <string name="instruction_menu_button">Instrukcja</string>
+    <string name="achievements_menu_button">Osiągnięcia</string>
+    <string name="settings_menu_button">Ustawienia</string>
+    <string name="information_menu_button">Informacje</string>
+</resources>

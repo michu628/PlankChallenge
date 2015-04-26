@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    >
+
+    <LinearLayout style="@style/menuLine">
+
+        <Button style="@style/menuButton"
+            android:id="@+id/trainingMenuButton"
+            android:text="@string/training_menu_button"/>
+        <Button style="@style/menuButton"
+            android:id="@+id/defineTrainingPlanMenuButton"
+            android:text="@string/define_training_plan_menu_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/menuLine">
+
+        <Button style="@style/menuButton"
+            android:id="@+id/instructionMenuButton"
+            android:text="@string/instruction_menu_button"/>
+        <Button style="@style/menuButton"
+            android:id="@+id/achievementsMenuButton"
+            android:text="@string/achievements_menu_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/menuLine">
+
+        <Button style="@style/menuButton"
+            android:id="@+id/settingsMenuButton"
+            android:text="@string/settings_menu_button"/>
+        <Button style="@style/menuButton"
+            android:id="@+id/informationMenuButton"
+            android:text="@string/information_menu_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

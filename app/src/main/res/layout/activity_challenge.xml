@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"/>
+
+    <Button
+        android:id="@+id/delayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start with delay"/>
+
+    <TextView
+        android:id="@+id/clockwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Start"
+        android:gravity="center_vertical|center_horizontal"/>
+
+</LinearLayout>
